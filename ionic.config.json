@@ -1,5 +1,7 @@
 {
   "name": "poc-keycloack",
-  "integrations": {},
+  "integrations": {
+    "capacitor": {}
+  },
   "type": "angular"
 }

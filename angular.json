@@ -32,7 +32,9 @@
               }
             ],
             "styles": ["src/theme/variables.scss", "src/global.scss"],
-            "scripts": []
+            "scripts": [
+              "src/assets/keycloakCustom/keycloak.js"
+            ]
           },
           "configurations": {
             "production": {
@@ -136,7 +138,8 @@
   "cli": {
     "schematicCollections": [
       "@ionic/angular-toolkit"
-    ]
+    ],
+    "analytics": "0f5882ca-9cc0-40f9-9051-ee6c116ca8c1"
   },
   "schematics": {
     "@ionic/angular-toolkit:component": {

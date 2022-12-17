@@ -3,7 +3,12 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  KeycloakConfig: {
+    url: 'http://auth.example.com:8080/auth',
+    realm: 'mater',
+    clientId: 'demo-client'
+  }
 };
 
 /*
